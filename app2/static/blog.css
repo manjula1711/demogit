@@ -1,0 +1,40 @@
+
+body{
+    background-color:lightpink;
+    opacity:0.8;
+    }
+    
+    .header{
+      font-family:cursive;
+      padding: 10px;
+      background-color:lightpink;
+      font-size: 65px;
+      text-align:center;
+    }
+    
+    p{
+      font-family:Monaco;
+      font-size:45px;
+      text-align:center;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    #myDIV {
+      background-color:lavender;
+      width: 102%;
+      padding:80px;
+      block-size: 230px;
+      animation: mymove 5s infinite;
+      border:2px solid purple;
+      text-align:center;
+      font-family:cursive;
+      font-size:40px;
+    }
+    
+    @keyframes mymove {
+      50% {block-size: 100px;}
+      50% {border: 50px solid lightblue;}
+    }
+    
+    
+    
